@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manas Bargali | Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Manas<span class="highlight">.</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="teaching.html">Teaching</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h2>Get In Touch</h2>
+                <p>Have a project idea, training request, or just want to say hello? Feel free to reach out!</p>
+            </div>
+
+            <div class="contact-content">
+                <!-- Contact Form -->
+                <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+                    
+                    <!-- Your Web3Forms Access Key -->
+                    <input type="hidden" name="access_key" value="4dcc714e-51cf-4359-ab5e-0e6e43a48366">
+
+                    <!-- Anti-spam honeypot -->
+                    <input type="text" name="_honey" style="display:none;">
+
+                    <div class="form-row">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    
+                    <textarea name="message" placeholder="Your Message (e.g., Training inquiry, Project collaboration, Feedback, etc.)" rows="7" required></textarea>
+                    
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>Email</strong>
+                            <p>manasbargali.111@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <strong>Phone</strong>
+                            <p>+91 7500633178</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Location</strong>
+                            <p>Ramnagar, Nainital, Uttarakhand</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Manas Bargali • Robotics Enthusiast & Trainer • Ramnagar, Nainital</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
